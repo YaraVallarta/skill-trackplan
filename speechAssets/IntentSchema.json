@@ -1,0 +1,26 @@
+{
+  "intents": [
+    {
+      "intent": "LoadIssueIntent",
+      "slots": [{"name": "PROJECT_KEY", "type": "PROJECT_KEY"},
+        {"name": "ISSUE_NUMBER", "type": "AMAZON.NUMBER"}]
+    },
+    {
+      "intent": "ReadIssueFieldIntent",
+      "slots": [{"name": "FIELD_KEY", "type": "FIELD_KEY"}]
+    },
+    {
+      "intent": "MoveIssueIntent",
+      "slots": [{"name": "TRANSITION_ID", "type": "TRANSITION_ID"}]
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.CancelIntent"
+    }
+  ]
+}

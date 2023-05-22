@@ -1,0 +1,48 @@
+LoadIssueIntent load {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent load ticket {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent load issue {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent stage {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent stage ticket {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent stage issue {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent give me {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent give me ticket {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent give me issue {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent bring me {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent bring me ticket {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent bring me issue {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent i want {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent i want ticket {PROJECT_KEY} {ISSUE_NUMBER}
+LoadIssueIntent i want issue {PROJECT_KEY} {ISSUE_NUMBER}
+ReadIssueFieldIntent what is the {FIELD_KEY}
+ReadIssueFieldIntent what is that {FIELD_KEY}
+ReadIssueFieldIntent what is its {FIELD_KEY}
+ReadIssueFieldIntent what is the ticket's {FIELD_KEY}
+ReadIssueFieldIntent what is the issue's {FIELD_KEY}
+ReadIssueFieldIntent get {FIELD_KEY}
+ReadIssueFieldIntent get its {FIELD_KEY}
+ReadIssueFieldIntent get the {FIELD_KEY}
+ReadIssueFieldIntent get the issue's {FIELD_KEY}
+ReadIssueFieldIntent tell me about {FIELD_KEY}
+ReadIssueFieldIntent tell me about {FIELD_KEY}
+ReadIssueFieldIntent tell me about the {FIELD_KEY}
+ReadIssueFieldIntent tell me about the {FIELD_KEY}
+ReadIssueFieldIntent read the {FIELD_KEY}
+ReadIssueFieldIntent read its {FIELD_KEY}
+ReadIssueFieldIntent read the ticket's {FIELD_KEY}
+ReadIssueFieldIntent read the issue's {FIELD_KEY}
+MoveIssueIntent move it to {TRANSITION_ID}
+MoveIssueIntent move that to {TRANSITION_ID}
+MoveIssueIntent move the ticket to {TRANSITION_ID}
+MoveIssueIntent move the issue to {TRANSITION_ID}
+MoveIssueIntent transition it to status {TRANSITION_ID}
+MoveIssueIntent transition the ticket to {TRANSITION_ID}
+MoveIssueIntent transition the issue to {TRANSITION_ID}
+MoveIssueIntent put it in {TRANSITION_ID}
+MoveIssueIntent put the issue in {TRANSITION_ID}
+MoveIssueIntent put the ticket in {TRANSITION_ID}
+MoveIssueIntent update its status to {TRANSITION_ID}
+MoveIssueIntent update the ticket's status to {TRANSITION_ID}
+MoveIssueIntent update the issues's status to {TRANSITION_ID}
+MoveIssueIntent mark it as {TRANSITION_ID}
+MoveIssueIntent mark the ticket as {TRANSITION_ID}
+MoveIssueIntent mark the issue as {TRANSITION_ID}
